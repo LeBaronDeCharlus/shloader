@@ -11,8 +11,8 @@
 - [Preview](#preview)
 - [Installation](#installation)
 - [Usage](#usage)
-  -[Quick Example](#quick-example)
-  -[Long Example](#long-example)
+  - [Quick Example](#quick-example)
+  - [Long Example](#long-example)
 - [License](#license)
 
 # Preview

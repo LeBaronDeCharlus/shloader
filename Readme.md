@@ -24,12 +24,17 @@
 # Features
 `shloader` has nice features such as :
 
-- emoji support
-- emoji loader support
-- dynamic message on load step
-- message on step ending
-- multiple loading templates
-- light and easy to use on existing scripts  
+😍 emoji support 
+
+💪 emoji loader support
+
+😎 dynamic message on load step
+
+ℹ️ message on step ending
+
+🎨 multiple loading templates
+
+👌 light and easy to use on existing scripts  
 
 # Installation
 
@@ -42,7 +47,7 @@ Here is an example you can use on your own :
 ```shell
 source ./lib/shloader.sh
 
-shloader -l dots8 -m "Testing" -e "✨ finishing !" 
+shloader -l emoji_hour -m "Testing" -e "✨ All good !" 
 
   sleep 2   # remove it in your code
   # … your logic goes here
@@ -67,7 +72,7 @@ source ./lib/shloader.sh
 # notice end message -e use unicode emoji to display
 # this is for better terminal support
 # \u2728 == ✨ but you can use emoji if your settings support it !
-shloader -l dots8 -m "Testing" -e "\u2728 finishing !" 
+shloader -l emoji_face -m "Testing" -e "\u2728 All good !" 
   sleep 2   # remove it in your code
 
   # … your logic goes here

@@ -1,4 +1,6 @@
 #!/bin/bash
+# https://github.com/Kaderovski/shloader
+# me@kaderovski.com
 
 # if you want to try just add this block code in your code 
 source ./lib/shloader.sh
@@ -12,7 +14,7 @@ source ./lib/shloader.sh
 # notice end message -e use unicode emoji to display
 # this is for better terminal support
 # \u2728 == ✨ but you can use emoji if your settings support it !
-shloader -l dots8 -m "Testing" -e "\u2728 finishing !" 
+shloader -l emoji_hour -m "Testing" -e "\u2728 All good !" 
   sleep 2   # remove it in your code
 
   # … your logic goes here

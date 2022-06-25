@@ -72,7 +72,7 @@ play_shloader() {
 
 
 end_shloader() {
-  kill "${loading_animation_pid}" &>/dev/null
+  kill "${shloader_pid}" &>/dev/null
   tput cnorm
   if [[ "${ending}" ]]; then
     printf "\r${ending}"; echo
@@ -118,6 +118,6 @@ shloader() {
 
   tput civis
   play_shloader &
-  loading_animation_pid="${!}"
+  shloader_pid="${!}"
 }
 shloader

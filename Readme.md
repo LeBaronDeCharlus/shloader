@@ -146,5 +146,6 @@ shloader -e "\u2728 all done"
 
 # License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+ - Shloader is under the MIT LICENSE
+ - See [LICENSE](LICENSE)
 

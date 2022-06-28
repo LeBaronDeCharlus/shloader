@@ -13,6 +13,7 @@
 - [Usage](#usage)
   - [Quick Example](#quick-example)
   - [Long Example](#long-example)
+- [Contributors](#contributors)
 - [License](#license)
 
 # Preview
@@ -137,6 +138,11 @@ shloader -e "\u2728 all done"
 | :-------- | :------- | :------------------------- |
 | `-e --end` | `string` | Optional. Show an end text message when loader ends|
 
+# Contributors
+
+<a href="https://github.com/kaderovski/shloader/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=kaderovski/shloader" />
+</a>
 
 # License
 
